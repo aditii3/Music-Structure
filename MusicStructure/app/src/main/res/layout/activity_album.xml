@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/album_grid"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/dp10"
+    android:columnWidth="@dimen/album_col_width"
+    android:gravity="center"
+    android:horizontalSpacing="@dimen/dp10"
+    android:numColumns="auto_fit"
+    android:stretchMode="columnWidth"
+    android:verticalSpacing="@dimen/dp10"
+    tools:context="com.example.android.musicstructure.activities.AlbumActivity" />
+
