@@ -8,7 +8,7 @@
 
     <ImageView
         android:layout_width="0dp"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
         android:layout_margin="@dimen/dp10"
         android:layout_weight="1"
         android:src="@drawable/music_icon" />
@@ -23,8 +23,7 @@
         <TextView
             android:id="@+id/tv_name_of_song"
             android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_weight="1"
+            android:layout_height="wrap_content"
             android:textColor="@android:color/black"
             android:textSize="@dimen/sp20"
             tools:text="Till I Collapse" />
@@ -32,8 +31,7 @@
         <TextView
             android:id="@+id/tv_artist_name"
             android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_weight="1"
+            android:layout_height="wrap_content"
             android:textColor="@android:color/black"
             android:textSize="@dimen/sp15"
             tools:text="Eminem" />

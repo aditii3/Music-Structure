@@ -21,16 +21,20 @@
         </activity>
         <activity
             android:name=".activities.NowPlayingActivity"
-            android:label="@string/label_now_playing" />
+            android:label="@string/label_now_playing"
+            android:parentActivityName=".activities.MainActivity" />
         <activity
             android:name=".activities.AlbumActivity"
-            android:label="@string/label_album" />
+            android:label="@string/label_album"
+            android:parentActivityName=".activities.MainActivity" />
         <activity
             android:name=".activities.TrendingActivity"
-            android:label="@string/label_trending" />
+            android:label="@string/label_trending"
+            android:parentActivityName=".activities.MainActivity" />
         <activity
             android:name=".activities.RecentActivity"
-            android:label="@string/label_recent" />
+            android:label="@string/label_recent"
+            android:parentActivityName=".activities.MainActivity" />
     </application>
 
 </manifest>

@@ -1,6 +1,7 @@
 package com.example.android.musicstructure.activities;
 
 import android.content.Intent;
+import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.TextView;
@@ -23,5 +24,7 @@ public class NowPlayingActivity extends AppCompatActivity {
             TextView songName = findViewById(R.id.tv_song_name);
             songName.setText(i.getStringExtra(MainActivity.SONG_NAME));
         }
+        ActionBar ab = getSupportActionBar();
+        ab.setDisplayHomeAsUpEnabled(true);
     }
 }
